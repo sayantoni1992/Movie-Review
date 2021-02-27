@@ -1,0 +1,16 @@
+.description__header {
+    margin-block-start: 0;
+}
+
+.movieReview__link {
+    color: rgba(255,255,0,0.8);
+    text-decoration: underline;
+}
+
+.movieReview__link:hover {
+    color: white;
+}
+
+.movieReview__date {
+    font-style: italic;
+}

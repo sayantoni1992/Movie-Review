@@ -1,0 +1,42 @@
+.body {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    height: 100%;
+}
+
+.body__thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.body__goBackButton{
+    align-self: center;
+    margin: 15px 0;
+    padding: 15px;
+    background: #FF4C4C;
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.body__goBackButton:hover {
+    background: green;
+    color: white;
+    transition: 0.3s all;
+    cursor: pointer;
+    
+}
+

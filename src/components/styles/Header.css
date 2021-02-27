@@ -1,0 +1,11 @@
+.header {
+    background: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header h2 {
+    color: #ffffff;
+}
+

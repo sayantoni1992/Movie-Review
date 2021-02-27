@@ -1,0 +1,50 @@
+.moviewReview {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  height: 90vh;
+  padding: 40px;  
+}
+
+
+.moviewReview__title {
+  font-size: xx-large;
+  padding: 15px 0;
+}
+
+.moviewReview__details {
+    display: flex;
+    
+}
+
+.moviewReview__image {
+    margin-right: 50px;
+
+}
+
+.moviewReview__image img {
+   object-fit: contain; 
+    
+}
+
+.moviewReview__btn {
+    align-self: flex-start;
+    margin: 15px 0;
+    padding: 15px;
+    background: #FF4C4C;
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.moviewReview__btn:hover {
+    background: green;
+    color: white;
+    transition: 0.3s all;
+    cursor: pointer;
+    
+}
